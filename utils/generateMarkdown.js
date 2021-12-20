@@ -1,13 +1,13 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-// function renderLicenseBadge(license) {}
-// if (license) {
-//   return `![${license} License](https://img.shields.io/badge/license-${license.split(' ').join('%20')}-blue)
-// `;
-// } else {
-//   return '';
-// }
-
+ function renderLicenseBadge(license) {
+ if (license) {
+   return `![${license} License](https://img.shields.io/badge/license-${license.split(' ').join('%20')}-blue)
+ `;
+ } else {
+   return '';
+ }
+ }
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {}
@@ -23,16 +23,25 @@ function generateMarkdown(data) {
   return `
   # ${data.projectName}
 
-  ## Description
+  # Description
 
   ${data.desciption}
   
   ## desk-top
+  
   ${data.desk_top}
 
   ## Table_of_Content
   
-  ${data.Table_of_Content} 
+   *[Installation](#Installation)
+   *[Usage](#Usage)
+   *[License](#License)
+   *[Tests](#Tests)
+   *[Issues](#Issues)
+   *[Github URL](#Github URL)
+   *[Your email](#Your email)
+   *[Installation](#Installation)
+   
 
   ## Installation
 
@@ -44,6 +53,8 @@ function generateMarkdown(data) {
 
   ## license
 
+  ${renderLicenseBadge(data.license)}
+  
   ${data.license}
 
   ## contributing
@@ -56,13 +67,14 @@ function generateMarkdown(data) {
 
   ## Issues
 
+  
   ${data.Issues}
 
   ## Github_url
 
   ${data.Github_url}
 
-  ## email
+ ## email
 
   ${data.email}
 
@@ -73,4 +85,4 @@ function generateMarkdown(data) {
 `;
 }
 
-module.exports = generateMarkdown;
+ module.exports = generateMarkdown;

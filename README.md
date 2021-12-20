@@ -1,27 +1,40 @@
 
-  # Readme
+  # ReadMe Generator
 
-  ## Description
+  # Description
 
-  Project
+  Command line aplication that uses input from the user that populate a ReadMe file.
+  Here is a video walk through on [youtube](https://youtu.be/xfN36gsgVhM)
   
   ## desk-top
-  readme@gmail.com
+  
+  1
 
   ## Table_of_Content
   
-  undefined 
+   * [Installation](#Installation)
+   * [Usage](#Usage)
+   * [License](#License)
+   * [Tests](#Tests)
+   * [Issues](#Issues)
+   * [Github_URL](#Github_URL)
+   * [Email](#email)
+   * [Installation](#Installation)
+   
 
   ## Installation
 
-  write readme
+  npm int 
 
   ## Usage
 
-  read
+  node index.js
 
   ## license
 
+  ![MIT License](https://img.shields.io/badge/license-MIT-blue)
+ 
+  
   MIT
 
   ## contributing
@@ -34,15 +47,16 @@
 
   ## Issues
 
-  write to readme
+  
+  no issues
 
   ## Github_url
 
-  readme@github.com
+  https://github.com/glewis67/ReadMe-Generator.git
 
-  ## email
+ ## email
 
-  glewis@gmail.com
+  Denen2@yahoo.com
 
 
   

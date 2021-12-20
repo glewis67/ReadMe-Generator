@@ -24,24 +24,24 @@ const questions = [
         message: "what is the project desk top url or screencastify ?"
    },
 
-   {
-        type: "checkbox",
-        name: "Table_of_Contents",
-        message:  "what sujects are in your Table of Contents?", 
-        choices: [
+//    {
+//         type: "checkbox",
+//         name: "Table_of_Contents",
+//         message:  "what sujects are in your Table of Contents?", 
+//         choices: [
     
-                "Instalation",
-                "Usage",
-                "License",
-                "Contributing",
-                "Tests",
-                "Issues",
-                "Github URL",
-                "Your email",
+                // "Instalation",
+                // "Usage",
+                // "License",
+                // "Contributing",
+                // "Tests",
+                // "Issues",
+                // "Github URL",
+                // "Your email",
             
-            ]
+    //         ]
     
-    },
+    // },
 
     {
         type: "input",
